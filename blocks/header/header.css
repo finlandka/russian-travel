@@ -1,0 +1,20 @@
+.header {
+  width: 100%;
+  padding: 28px 48px 0 48px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: auto min-content min-content;
+  column-gap: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 28px 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    padding: 16px 16px 0 16px;
+  }
+}
