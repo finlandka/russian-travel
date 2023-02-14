@@ -4,6 +4,10 @@
   line-height: 22px;
   font-weight: 400;
   width: 360px;
+  margin: 0;
+  padding: 0;
+  align-self: start;
+  grid-area: subtitle;
 }
 
 @media screen and (max-width: 425px) {
