@@ -2,13 +2,12 @@
   width: 100%;
   padding: 28px 48px 0 48px;
   box-sizing: border-box;
-  display: grid;
-  grid-template-columns: auto min-content min-content;
-  column-gap: 18px;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {
-  header {
+  .header {
     padding: 28px 24px 0 24px;
   }
 }

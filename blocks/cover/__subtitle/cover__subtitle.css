@@ -3,7 +3,7 @@
   font-size: 18px;
   line-height: 22px;
   font-weight: 400;
-  width: 360px;
+  max-width: 360px;
   margin: 0;
   padding: 0;
   align-self: start;
@@ -14,6 +14,6 @@
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    width: 288px;
+    max-width: 288px;
   }
 }

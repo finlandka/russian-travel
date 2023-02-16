@@ -3,7 +3,6 @@
   padding: 92px 148px 0 148px;
   box-sizing: border-box;
   margin: 0 auto;
-  list-style: none;
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,7 +16,7 @@
     padding: 88px 24px 0 24px;
   }
 }
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 650px) {
   .places {
     padding: 64px 0 0;
   }

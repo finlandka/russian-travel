@@ -10,8 +10,10 @@
     <div class="page__container">
       <header class="header">
         <div class="header__logo"></div>
-        <a href="#" title="Русский язык" class="header__lang-link header__lang-link_active">Ru</a>
-        <a href="#" title="Английский язык" class="header__lang-link">En</a>
+        <ul class="header__lang">
+          <li><a href="#" title="Русский язык" class="header__lang-link header__lang-link_active">Ru</a></li>
+          <li><a href="#" title="Английский язык" class="header__lang-link">En</a></li>
+        </ul>
       </header>
       <main>
       <section class="lead">
@@ -20,7 +22,7 @@
         <img class="lead__image" src="images/lead-polka.jpg" alt="Маршрут">
         <p class="lead__caption">ваша полка — верхняя</p>
       </section>
-      <article class="intro">
+      <section class="intro">
         <h2 class="intro__title">Чего мы там не видели?</h2>
         <div class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной
           стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и
@@ -34,23 +36,25 @@
           <li><span class="intro__span-accent">Природных заповедников</span> 105</li>
           <li><span class="intro__span-accent">Аэропортов</span> 241</li>
         </ul>
-      </article>
-      <section class="photo-grid">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-train.jpg" alt="Вид из окна поезда">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-atharva-tulsi.jpg" alt="Атарва">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-tuman.jpg" alt="Туман">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-sochi.jpg" alt="Сочи">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-arisa.jpg" alt="Ариса">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-baikal.jpg" alt="Байкал">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-elbrus.jpg" alt="Эльбрус">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-kondratiev.jpg" alt="Кондратьев">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-kamchatka-1.jpg" alt="Камчатка">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-kamchatka-2.jpg" alt="Камчатка">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-baikal-2.jpg" alt="Байкал">
-        <img class="photo-grid__item" src="images/photo-grid/photo-grid-ergaki.jpg" alt="Ергаки">
       </section>
-      <ul class="places">
-        <li class="place">
+      <section class="photo-grid">
+        <ul class="photo-grid__gallery">
+        <li><img class="photo-grid__item" src="images/photo-grid/photo-grid-train.jpg" alt="Вид из окна поезда"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid/photo-grid-atharva-tulsi.jpg" alt="Атарва"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid/photo-grid-tuman.jpg" alt="Туман"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid/photo-grid-sochi.jpg" alt="Сочи"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid/photo-grid-arisa.jpg" alt="Ариса"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid/photo-grid-baikal.jpg" alt="Байкал"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid/photo-grid-elbrus.jpg" alt="Эльбрус"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid/photo-grid-kondratiev.jpg" alt="Кондратьев"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid/photo-grid-kamchatka-1.jpg" alt="Камчатка"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid/photo-grid-kamchatka-2.jpg" alt="Камчатка"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid/photo-grid-baikal-2.jpg" alt="Байкал"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid/photo-grid-ergaki.jpg" alt="Ергаки"></li>
+        </ul>
+      </section>
+      <section class="places">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <h3 class="place__url-heading">url</h3>
@@ -64,8 +68,8 @@
             соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера
             здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
           </div>
-        </li>
-        <li class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <h3 class="place__url-heading">url</h3>
@@ -81,8 +85,8 @@
             кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
             в Мурманск.</p>
           </div>
-        </li>
-        <li class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <h3 class="place__url-heading">url</h3>
@@ -97,8 +101,8 @@
             флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы —
             тоже обитатели Алтайского края.</p>
           </div>
-        </li>
-        <li class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <h3 class="place__url-heading">url</h3>
@@ -112,8 +116,8 @@
             когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на
             фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
           </div>
-        </li>
-        <li class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <h3 class="place__url-heading">url</h3>
@@ -127,12 +131,14 @@
             В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями.
             Чтобы все знали, кто тут хозяин.</p>
           </div>
-        </li>
-      </ul>
-      <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala" title="До Байкала на собаках" target="_blank">
-        <h2 class="cover__title">До Байкала «на собаках»</h2>
-        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-      </a>
+        </article>
+      </section>
+      <section class="cover">
+        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" title="До Байкала на собаках" target="_blank">
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+        </a>
+      </section>
       </main>
       <footer class="footer">
         <nav class="footer__menu">

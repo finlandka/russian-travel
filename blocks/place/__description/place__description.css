@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 650px) {
   .place__description {
     padding: 0 16px;
   }

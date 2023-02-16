@@ -13,7 +13,7 @@
     line-height: 46px;
   }
 }
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 650px) {
   .place__title {
     font-size: 32px;
     line-height: 35px;

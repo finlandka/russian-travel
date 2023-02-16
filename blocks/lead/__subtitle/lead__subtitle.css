@@ -13,7 +13,7 @@
     font-size: 22px;
     line-height: 24px;
     padding: 16px 0 0;
-    width: 70%;
+    max-width: 70%;
   }
 }
 
@@ -21,7 +21,6 @@
   .lead__subtitle {
     font-size: 16px;
     line-height: 20px;
-    padding: 16px 0 0;
-    width: 288px;
+    max-width: 288px;
   }
 }
